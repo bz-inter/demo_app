@@ -6,3 +6,5 @@ gem 'sqlite3' , '1.3.4'
 group :production do
   gem "pg"
 end
+
+gem 'jquery-rails'
