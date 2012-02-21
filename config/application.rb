@@ -44,5 +44,8 @@ module DemoApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # added this line as heroku would not pre compile
+    Rails.application.config.assets.compile = true
   end
 end
